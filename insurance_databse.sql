@@ -27,25 +27,25 @@ CREATE TABLE Accidentss(
 
 
 INSERT INTO Driverss values
-(1, 'John Doe', 'DL12345'),
-(2, 'Jane Smith', 'DL54321'),
-(3, 'Mike Johnson', 'DL67890'),
-(4, 'Alice Brown', 'DL98765'),
-(5, 'Bob White', 'DL11223');
+(1, 'Richard', 'KA052250'),
+(2, 'Pradeep', 'KA031181'),
+(3, 'Smith', 'KA095477'),
+(4, 'Venu', 'KA053408'),
+(5, 'John', 'KA041702');
 
 INSERT INTO Vehicless values
-(101, 'MH12AB1234', 1),
-(102, 'MH13CD5678', 2),
-(103, 'MH14EF9101', 3),
-(104, 'MH15GH1121', 4),
-(105, 'MH16IJ3141', 5);
+(101, 'KA052250', 1),
+(102, 'KA031181', 2),
+(103, 'KA095477', 3),
+(104, 'KA053408', 4),
+(105, 'KA041702', 5);
 
 INSERT INTO Accidentss values
-(1001, '2024-01-10', 'Mumbai', 101, 15000),
-(1002, '2024-02-15', 'Pune', 102, 30000),
-(1003, '2024-03-20', 'Nagpur', 103, 25000),
-(1004, '2024-04-25', 'Nashik', 104, 10000),
-(1005, '2024-05-30', 'Aurangabad', 105, 40000);
+(1001, '2024-01-10', 'Mysore Road', 101, 15000),
+(1002, '2024-02-15', 'South end Circle', 102, 30000),
+(1003, '2024-03-20', 'Bull temple Road', 103, 25000),
+(1004, '2024-04-25', 'Mysore Road', 104, 10000),
+(1005, '2024-05-30', 'Kanakpura Road', 105, 40000);
 
 SELECT accident_date from Accidentss;
 SELECT DISTINCT v.driver_id
