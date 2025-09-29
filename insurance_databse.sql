@@ -1,4 +1,4 @@
-show databases;
+
 CREATE DATABASE if not exists maanas;
 USE maanas;
 
